@@ -1,0 +1,12 @@
+Source: ros-humble-imu-transformer
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-geometry-msgs <!nocheck>, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2-geometry-msgs <!nocheck>, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/imu_transformer
+Standards-Version: 3.9.2
+
+Package: ros-humble-imu-transformer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-message-filters, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-ros-workspace
+Description: Node/components to transform sensor_msgs::Imu data from one frame into another.
