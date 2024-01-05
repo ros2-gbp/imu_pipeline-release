@@ -1,0 +1,12 @@
+Source: ros-humble-imu-pipeline
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/imu_pipeline
+Standards-Version: 3.9.2
+
+Package: ros-humble-imu-pipeline
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-imu-processors, ros-humble-imu-transformer, ros-humble-ros-workspace
+Description: imu_pipeline
