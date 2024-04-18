@@ -1,1 +1,1 @@
-{"base": "bd99c27", "parent": "debian/rolling/imu_pipeline", "previous": "b79e23b", "trim": "", "trimbase": ""}
+{"base": "857cc7a", "parent": "debian/jazzy/imu_pipeline", "previous": "2f424c2", "trim": "", "trimbase": ""}
