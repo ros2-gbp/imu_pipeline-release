@@ -1,0 +1,12 @@
+Source: ros-kilted-imu-pipeline
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: http://ros.org/wiki/imu_pipeline
+Standards-Version: 3.9.2
+
+Package: ros-kilted-imu-pipeline
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-imu-processors, ros-kilted-imu-transformer, ros-kilted-ros-workspace
+Description: imu_pipeline
