@@ -1,0 +1,91 @@
+ros-jazzy-imu-processors (0.5.2-1noble) noble; urgency=high
+
+  * Add use_stamped parameter to bias remover (backport #30 <https://github.com/ros-perception/imu_pipeline/issues/30>) (#31 <https://github.com/ros-perception/imu_pipeline/issues/31>)
+    Adds use_stamped parameter (default is false) to bias remover node
+    Co-authored-by: Tatsuro Sakaguchi <mailto:tacchan.mello.ioiq@gmail.com>
+  * Contributors: Michael Ferguson
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Mon, 02 Jun 2025 04:00:00 -0000
+
+ros-jazzy-imu-processors (0.5.1-1noble) noble; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 27 Dec 2024 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.5.0-1noble) noble; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Thu, 08 Feb 2024 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.4.1-1noble) noble; urgency=high
+
+  * update dependency tf->tf2_ros (#22 <https://github.com/ros-perception/imu_pipeline/issues/22>)
+    found this when trying to do first release...
+  * Contributors: Michael Ferguson
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 05 Jan 2024 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.4.0-1noble) noble; urgency=high
+
+  * Initial ROS 2 release
+  * Contributors: Michael Ferguson, Paul Auerbach, Tony Baltovski
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Wed, 03 Jan 2024 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.3.1-1noble) noble; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Tue, 22 Nov 2022 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.3.0-1noble) noble; urgency=high
+
+  * Bump CMake version to avoid CMP0048 warning.
+  * Updated to package.xml format 2.
+  * Contributors: Tony Baltovski
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Thu, 04 Jun 2020 04:00:00 -0000
+
+ros-jazzy-imu-processors (0.2.3-1noble) noble; urgency=high
+
+  * Updated maintainers.
+  * Contributors: Tony Baltovski
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Wed, 30 Jan 2019 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.2.2-1noble) noble; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Wed, 25 Jan 2017 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Wed, 04 Feb 2015 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.2.0-1noble) noble; urgency=high
+
+  * Move misc processors into imu_processors
+  * Contributors: Paul Bovbel
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Fri, 30 Jan 2015 05:00:00 -0000
+
+ros-jazzy-imu-processors (0.1.1-1noble) noble; urgency=high
+
+  * Added tool to null out gyro bias based on cmd_vel or odom.
+  * Merge branch 'hydro-devel' of https://github.com/ros-perception/imu_pipeline into hydro-devel
+  * Added imu_integrator.
+  * Merge pull request #2 <https://github.com/ros-perception/imu_pipeline/issues/2> from ros-perception/groovy-devel
+    Updated packaged name to imu_pipeline
+  * Updated packaged name to imu_pipeline
+  * Catkinized, updated for Groovy.
+  * Initial github commit
+  * Initial commit
+
+ -- Paul Bovbel <pbovbel@clearpathrobotics.com>  Mon, 29 Jul 2013 04:00:00 -0000
+
+
