@@ -1,3 +1,29 @@
+## imu_pipeline (rolling) - 0.6.1-1
+
+The packages in the `imu_pipeline` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling -t rolling imu_pipeline` on `Tue, 03 Jun 2025 02:25:05 -0000`
+
+These packages were released:
+- `imu_pipeline`
+- `imu_processors`
+- `imu_transformer`
+
+Version of package(s) in repository `imu_pipeline`:
+
+- upstream repository: https://github.com/ros-perception/imu_pipeline
+- release repository: https://github.com/ros2-gbp/imu_pipeline-release.git
+- rosdistro version: `0.6.0-1`
+- old version: `0.6.0-1`
+- new version: `0.6.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## imu_pipeline (kilted) - 0.6.1-1
 
 The packages in the `imu_pipeline` repository were released into the `kilted` distro by running `/usr/bin/bloom-release -r kilted -t kilted imu_pipeline` on `Tue, 03 Jun 2025 02:22:50 -0000`
