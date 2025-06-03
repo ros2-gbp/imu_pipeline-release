@@ -2,6 +2,16 @@
 Changelog for package imu_processors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.2 (2025-06-02)
+------------------
+* Add use_stamped parameter to bias remover (backport `#30 <https://github.com/ros-perception/imu_pipeline/issues/30>`_) (`#31 <https://github.com/ros-perception/imu_pipeline/issues/31>`_)
+  Adds `use_stamped` parameter (default is `false`) to bias remover node
+  Co-authored-by: Tatsuro Sakaguchi <tacchan.mello.ioiq@gmail.com>
+* Contributors: Michael Ferguson
+
+0.5.1 (2024-12-27)
+------------------
+
 0.5.0 (2024-02-08)
 ------------------
 
