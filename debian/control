@@ -1,0 +1,12 @@
+Source: ros-rolling-imu-processors
+Section: misc
+Priority: optional
+Maintainer: Paul Bovbel <pbovbel@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-cpplint <!nocheck>, ros-rolling-geometry-msgs, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-sensor-msgs, ros-rolling-tf2-ros, ros-rolling-ros-workspace
+Homepage: http://ros.org/wiki/imu_processors
+Standards-Version: 3.9.2
+
+Package: ros-rolling-imu-processors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-geometry-msgs, ros-rolling-nav-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-sensor-msgs, ros-rolling-tf2-ros, ros-rolling-ros-workspace
+Description: Processors for sensor_msgs::Imu data
